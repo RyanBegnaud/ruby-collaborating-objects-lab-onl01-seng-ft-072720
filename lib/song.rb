@@ -19,7 +19,6 @@ class Song
     song_new = Song.new(song)
     song_new.artist = artist 
     song_new.artist_name = artist 
-    binding.pry
     song_new 
   end
   
