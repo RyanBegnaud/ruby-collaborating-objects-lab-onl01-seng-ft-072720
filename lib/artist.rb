@@ -22,6 +22,7 @@ class Artist
      binding.pry
     if @@all.length <= 0
       name = Artist.new(name)
+      name
     else
       @@all.each do |artist|
          if artist == name 
