@@ -20,7 +20,7 @@ class Artist
   
   def self.find_or_create_by_name(name)
     if @@all.length <= 0
-      name = Artist.new(name)
+      object = Artist.new(name)
       name
     else
       @@all.each do |artist|
