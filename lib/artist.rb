@@ -26,5 +26,6 @@ class Artist
          artist 
        else 
          name = Artist.new(name)
+         name 
   end
 end
