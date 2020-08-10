@@ -24,9 +24,9 @@ class Artist
       name
     else
       @@all.each do |artist|
-         if artist == name 
+        if artist == name 
          artist 
-       else 
+        else 
          name = Artist.new(name)
          name
        end
