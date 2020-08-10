@@ -18,7 +18,6 @@ class Song
     song = file[1].strip 
     song_new = Song.new(song)
     song_new.artist_name = artist 
-    binding.pry
     song_new 
   end
   
