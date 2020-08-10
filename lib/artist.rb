@@ -36,6 +36,7 @@ class Artist
       object = Artist.new(name)
       array = []
       array << object
+      array
     end
   end
 end
