@@ -29,6 +29,7 @@ class Artist
          name = Artist.new(name)
          array = []
          array << name
+         array
         end
        end
     else
