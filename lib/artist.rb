@@ -24,5 +24,6 @@ class Artist
      @@all.each do |artist|
        if artist == name 
          artist 
+       else 
   end
 end
