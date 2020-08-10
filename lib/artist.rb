@@ -25,7 +25,7 @@ class Artist
      object = Artist.new(name)
      object 
    else 
-     
+     test 
   end
   
 end
