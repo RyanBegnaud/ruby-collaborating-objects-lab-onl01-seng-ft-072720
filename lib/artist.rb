@@ -23,5 +23,6 @@ class Artist
     binding.pry
      @@all.each do |artist|
        if artist == name 
+         artist 
   end
 end
