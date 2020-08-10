@@ -33,7 +33,8 @@ class Artist
        end
     else
       object = Artist.new(name)
-      object
+      array = []
+      array << object
     end
   end
 end
