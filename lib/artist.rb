@@ -22,7 +22,6 @@ class Artist
    if @@all.detect {|artist| artist.name == name} == nil 
      object = Artist.new(name)
      object 
-    binding.pry
   end
   
 end
