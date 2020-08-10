@@ -18,7 +18,7 @@ class Song
     song = file[1].strip 
     song_new = Song.new(song)
     artist_name=(artist)
-    song 
+    @song 
   end
   
   def artist_name=(name)
