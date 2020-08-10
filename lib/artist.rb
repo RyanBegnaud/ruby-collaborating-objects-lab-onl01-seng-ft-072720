@@ -19,24 +19,7 @@ class Artist
   end
   
   def self.find_or_create_by_name(name)
-    if @@all.length >= 1
-     @@all.each do |artist|
-        if artist.name == name
-         array = []
-         array << artist 
-         array
-        else 
-         name = Artist.new(name)
-         array = []
-         array << name
-         array
-        end
-       end
-    else
-      object = Artist.new(name)
-      array = []
-      array << object
-      array
+    
     end
   end
 end
