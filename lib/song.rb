@@ -18,7 +18,7 @@ class Song
     song = file[1].strip 
     binding.pry
     song_new = Song.new(song)
-    song 
+    song_new 
   end
   
   def artist_name=(name)
