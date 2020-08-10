@@ -20,6 +20,8 @@ class Artist
   
   def self.find_or_create_by_name(name)
      binding.pry
+    if @@all.length <= 0
+      name = Artist.new(name)
      @@all.each do |artist|
          if artist == name 
          artist 
