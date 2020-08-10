@@ -22,7 +22,9 @@ class Artist
     if @@all.length >= 1
      @@all.each do |artist|
         if artist.name == name
-         array = []         artist 
+         array = []
+         array << artist 
+         array 
         else 
          name = Artist.new(name)
          name
