@@ -27,7 +27,8 @@ class Artist
          array 
         else 
          name = Artist.new(name)
-         name
+         array = []
+         array << name
         end
        end
     else
