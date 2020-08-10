@@ -22,7 +22,6 @@ class Artist
     if @@all.length >= 1
      @@all.each do |artist|
         if artist.name == name.name
-         binding.pry
          artist 
         else 
          name = Artist.new(name)
