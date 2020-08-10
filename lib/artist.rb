@@ -20,7 +20,6 @@ class Artist
   
   def self.find_or_create_by_name(name)
     if @@all.length <= 0
-      binding.pry
       name = Artist.new(name)
       name
     else
