@@ -23,7 +23,6 @@ class Artist
       name = Artist.new(name)
       name
     else
-     
       @@all.each do |artist|
         if artist == name 
          binding.pry
