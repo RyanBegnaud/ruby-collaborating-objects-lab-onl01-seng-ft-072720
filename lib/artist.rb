@@ -26,7 +26,7 @@ class Artist
       binding.pry
       @@all.each do |artist|
         if @@all.artist == name 
-         
+         binding.pry
          artist 
         else 
          name = Artist.new(name)
