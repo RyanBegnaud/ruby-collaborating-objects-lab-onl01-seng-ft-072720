@@ -27,6 +27,7 @@ class Artist
        else 
          name = Artist.new(name)
          name
+         binding.pry
        end
      end
   end
