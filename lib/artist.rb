@@ -26,6 +26,7 @@ class Artist
      object 
    else 
      test 
+   end
   end
   
 end
