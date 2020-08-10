@@ -18,7 +18,6 @@ class Song
     song = file[1].strip 
     song_new = Song.new(song)
     song_new.artist_name = artist 
-    Artist.add_song(song_new)
     song_new 
   end
   
