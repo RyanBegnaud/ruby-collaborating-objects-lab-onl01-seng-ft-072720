@@ -23,6 +23,7 @@ class Artist
        binding.pry
        if artist == name 
          artist 
+         binding.pry
        else 
          name = Artist.new(name)
          name
