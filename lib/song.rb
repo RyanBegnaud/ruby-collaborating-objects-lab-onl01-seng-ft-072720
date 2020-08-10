@@ -16,7 +16,6 @@ class Song
     file = filename.split("-")
     artist = file[0].strip 
     song = file[1].strip 
-    binding.pry
     song_new = Song.new(song)
     song_new 
   end
