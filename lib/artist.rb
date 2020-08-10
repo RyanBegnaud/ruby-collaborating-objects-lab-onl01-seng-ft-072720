@@ -27,20 +27,10 @@ class Artist
         else 
          name = Artist.new(name)
          name
-     
-     
-     
-      object = Artist.new(name)
-      object
-    else
-      @@all.each do |artist.name|
-        if artist.name == name 
-         binding.pry
-         artist 
-        else 
-         name = Artist.new(name)
-         name
-         end
+       end
+     end
+      else
+      
       end
     end
   end
