@@ -22,6 +22,7 @@ class Artist
    if @@all.detect {|artist| artist.name == name} == nil 
      object = Artist.new(name)
      object 
+   end
   end
   
 end
