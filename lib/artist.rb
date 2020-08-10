@@ -29,7 +29,7 @@ class Artist
          name
         end
        end
-      else
+    else
       
       end
     end
