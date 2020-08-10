@@ -32,6 +32,6 @@ class Artist
          name
        end
     end
-     end
+   end
   end
 end
