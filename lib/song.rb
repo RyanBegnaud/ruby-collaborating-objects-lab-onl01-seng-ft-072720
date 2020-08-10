@@ -23,6 +23,7 @@ class Song
   
   def artist_name=(name)
     artist = Artist.find_or_create_by_name(name)
+    artist.name = name 
     Artist.add_song(song_new)
   end
     
