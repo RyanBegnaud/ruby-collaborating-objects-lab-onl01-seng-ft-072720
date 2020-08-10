@@ -31,7 +31,7 @@ class Artist
          name = Artist.new(name)
          name
        end
-       end
+    end
      end
   end
 end
