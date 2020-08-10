@@ -23,7 +23,7 @@ class Artist
     if @@all.length <= 0
       name = Artist.new(name)
     else
-     @@all.each do |artist|
+      @@all.each do |artist|
          if artist == name 
          artist 
        else 
