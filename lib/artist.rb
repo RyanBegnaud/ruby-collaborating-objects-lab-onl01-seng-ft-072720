@@ -25,7 +25,7 @@ class Artist
     else
      
       @@all.each do |artist|
-        if @@all.artist == name 
+        if artist == name 
          binding.pry
          artist 
         else 
