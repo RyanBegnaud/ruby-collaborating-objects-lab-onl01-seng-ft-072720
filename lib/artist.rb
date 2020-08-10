@@ -19,7 +19,7 @@ class Artist
   end
   
   def self.find_or_create_by_name(name)
-    if @@all.length <= 0
+    if @@all.length >= 1
       object = Artist.new(name)
       object
     else
